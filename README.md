@@ -39,9 +39,9 @@ At present, you'll find a number of status options. I would suggest they're used
 
 [![OSS Status: Healthy][healthy-badge]][healthy-markdown]
 
-Description | Use Case
---|--
-Project is actively being worked on. Issues and Pull Requests are welcomed.| Software that you actively want help with.
+Project is actively being worked on. Issues and Pull Requests are welcomed. 
+
+Should be used on projects that you actively welcome contributions.
 
 URL Type | Location
 --|--
@@ -52,9 +52,9 @@ Description URL: | `https://github.com/martinpeck/oss-project-status/blob/master
 
 [![OSS Status: Healthy, Closed][healthy-closed-badge]][healthy-closed-markdown]
 
-Description | Use Case
---|--
-Project is actively being worked on, but at this stage isn't looking for contributions. You're welcome to raise issues, comment on code, or create pull requests, but they may well be politely turned down.| A personal blog/website. A project in the very early stages of development, where things are changing rapidly and aren't yet full defined.
+Project is actively being worked on, but at this stage you're not looking for contributions. People are welcome to raise issues, comment on code, or create pull requests, but they may well be politely turned down.
+
+Might be used on a personal blog, or portfolio website, where contributions may not make sense. Might be used on a project in the very early stages of development, where things are changing rapidly and aren't yet full defined, and the author isn't ready to take contributions.
 
 URL Type | Location
 --|--
@@ -65,9 +65,7 @@ Description URL: | `https://github.com/martinpeck/oss-project-status/blob/master
 
 [![OSS Status: Dormant][dormant-badge]][dormant-markdown]
 
-Description | Use Case
---|--
-Project is *not* being actively worked on. Issues and Pull Requests may not be actioned/considered, but you're welcome to raise them. | Projects where the owners have stopped active maintenance.  
+Project is *not* being actively worked on. Issues and Pull Requests may not be actioned or considered. Contributors may be better off taking a fork of the project, and making enhancements there.
 
 URL Type | Location
 --|--
@@ -78,9 +76,7 @@ Description URL: | `https://github.com/martinpeck/oss-project-status/blob/master
 
 [![OSS Status: Abandoned][abandoned-badge]][abandoned-markdown]
 
-Description | Use Case
---|--
-Project is not being worked on, and is very unlikely to ever be worked on again. Software should be considered read-only. If you want changes, forking the repo is preferred. The owner may well be interested in handing ownership over to someone. | Software that the owner knows is old, broken, and where they don't have the time to fix things.
+Project is not being worked on, and is very unlikely to ever be worked on again. Software should be considered read-only. Software may well be broke, unpatched, and out of date. Contributors should fork the repo if they see value in the code, but do so with caution. The owner may well be interested in handing ownership over to someone else. 
 
 URL Type | Location
 --|--
