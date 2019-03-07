@@ -1,4 +1,6 @@
-# This OSS Project is ABANDONED
+# This Project has been ABANDONED
+
+[![OSS Status: Abandoned][abandoned-badge]][abandoned-markdown]
 
 ## What does that mean?
 
@@ -11,3 +13,6 @@ Morbi aliquet consequat finibus. Sed dolor ligula, tincidunt sit amet ex ac, ull
 ## How can you contribute?
 
 Cras porta lectus id magna sodales venenatis eu at neque. Phasellus odio turpis, dictum eget cursus eget, congue at nibh. Sed quis pharetra magna, in vestibulum ante. Nullam in nisl ac nunc posuere accumsan. Integer elementum, dui vel vehicula consequat, justo enim porta enim, quis pellentesque nibh orci eget velit. Suspendisse in placerat urna, eget lobortis elit. Sed fermentum urna ac tortor blandit, et interdum tortor fringilla. Mauris varius enim eu nisl condimentum, et cursus neque tempus. Maecenas pulvinar neque justo, in imperdiet velit eleifend luctus. Etiam condimentum sem et semper tempus. Nam at ex eget ligula sodales tincidunt. Nam sit amet aliquam tellus. Integer vel eros arcu. In hac habitasse platea dictumst.
+
+[abandoned-badge]: https://img.shields.io/badge/OSS%20Status-Abandoned-lightgray.svg
+[abandoned-markdown]: https://github.com/martinpeck/oss-project-status/blob/master/abandoned/OSS_STATUS.md
