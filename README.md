@@ -1,6 +1,6 @@
 # OSS Project Status Indicators
 
-[![OSS Status: Healthy](/healthy/oss_status.png)](/healthy/OSS_STATUS.md)
+[![OSS Status: Healthy][healthy-badge]][healthy-markdown]
 
 Often, when you're looking at a project on GitHub, it's hard to tell how "loved" the project is.
 
@@ -35,12 +35,57 @@ Sure. You're looking at it. This repository has an `OSS_STATUS.md` file at its r
 
 At present, you'll find a number of status options. I would suggest they're used according to the guidelines that follow:
 
-| OSS status | Indicator | Folder | Description | Use Case
---|--|--|--|--
-healthy | [![OSS Status: Healthy](/healthy/oss_status.png)](/healthy/OSS_STATUS.md) | `/healthy` | Project is actively being worked on. Issues and Pull Requests are welcomed.| Software that you actively want help with.
-healthy-closed | [![OSS Status: Healthy, Closed](/healthy-closed/oss_status.png)](/healthy/OSS_STATUS.md) | `/healthy-closed` | Project is actively being worked on, but at this stage isn't looking for contributions. You're welcome to raise issues, comment on code, or create pull requests, but they may well be politely turned down.| A personal blog/website. A project in the very early stages of development, where things are changing rapidly and aren't yet full defined.
-dormant | [![OSS Status: Dormant](/dormant/oss_status.png)](/healthy/OSS_STATUS.md) | `/domant` | Project is *not* being actively worked on. Issues and Pull Requests may not be actioned/considered, but you're welcome to raise them. | Projects where the owners have stopped active maintenance.  
-abandoned | [![OSS Status: Abandoned](/abandoned/oss_status.png)](/healthy/OSS_STATUS.md) | `/abandoned` | Project is not being worked on, and is very unlikely to ever be worked on again. Software should be considered read-only. If you want changes, forking the repo is preferred. The owner may well be interested in handing ownership over to someone. | Software that the owner knows is old, broken, and where they don't have the time to fix things.
+### Health
+
+[![OSS Status: Healthy][healthy-badge]][healthy-markdown]
+
+Description | Use Case
+--|--
+Project is actively being worked on. Issues and Pull Requests are welcomed.| Software that you actively want help with.
+
+URL Type | Location
+--|--
+Image URL: | `https://img.shields.io/badge/OSS%20Status-Healthy-darkgreen.svg`
+Description URL: | `https://github.com/martinpeck/oss-project-status/blob/master/healthy/OSS_STATUS.md`
+
+### Health, Closed
+
+[![OSS Status: Healthy, Closed][healthy-closed-badge]][healthy-closed-markdown]
+
+Description | Use Case
+--|--
+Project is actively being worked on, but at this stage isn't looking for contributions. You're welcome to raise issues, comment on code, or create pull requests, but they may well be politely turned down.| A personal blog/website. A project in the very early stages of development, where things are changing rapidly and aren't yet full defined.
+
+URL Type | Location
+--|--
+Image URL: | `https://img.shields.io/badge/OSS%20Status-Healthy,%20Closed-darkgreen.svg`
+Description URL: | `https://github.com/martinpeck/oss-project-status/blob/master/healthy-closed/OSS_STATUS.md`
+
+### Dormant
+
+[![OSS Status: Dormant][dormant-badge]][dormant-markdown]
+
+Description | Use Case
+--|--
+Project is *not* being actively worked on. Issues and Pull Requests may not be actioned/considered, but you're welcome to raise them. | Projects where the owners have stopped active maintenance.  
+
+URL Type | Location
+--|--
+Image URL: | `https://img.shields.io/badge/OSS%20Status-Dormant-blue.svg`
+Description URL: | `https://github.com/martinpeck/oss-project-status/blob/master/dormant/OSS_STATUS.md`
+
+### Abandoned
+
+[![OSS Status: Abandoned][abandoned-badge]][abandoned-markdown]
+
+Description | Use Case
+--|--
+Project is not being worked on, and is very unlikely to ever be worked on again. Software should be considered read-only. If you want changes, forking the repo is preferred. The owner may well be interested in handing ownership over to someone. | Software that the owner knows is old, broken, and where they don't have the time to fix things.
+
+URL Type | Location
+--|--
+Image URL: | `https://img.shields.io/badge/OSS%20Status-Abandoned-lightgray.svg`
+Description URL: | `https://github.com/martinpeck/oss-project-status/blob/master/abandoned/OSS_STATUS.md`
 
 ## What if I have a slightly different situation to the ones defined here?
 
@@ -71,3 +116,14 @@ Copyright (c) 2019 Martin Peck
 Covered by MIT license (see [`LICENSE`][license] file)
 
 [license]: LICENSE
+[healthy-badge]: https://img.shields.io/badge/OSS%20Status-Healthy-darkgreen.svg
+[healthy-markdown]: https://github.com/martinpeck/oss-project-status/blob/master/healthy/OSS_STATUS.md
+
+[healthy-closed-badge]: https://img.shields.io/badge/OSS%20Status-Healthy,%20Closed-darkgreen.svg
+[healthy-closed-markdown]: https://github.com/martinpeck/oss-project-status/blob/master/healthy-closed/OSS_STATUS.md
+
+[dormant-badge]: https://img.shields.io/badge/OSS%20Status-Dormant-blue.svg
+[dormant-markdown]: https://github.com/martinpeck/oss-project-status/blob/master/dormant/OSS_STATUS.md
+
+[abandoned-badge]: https://img.shields.io/badge/OSS%20Status-Abandoned-lightgray.svg
+[abandoned-markdown]: https://github.com/martinpeck/oss-project-status/blob/master/abandoned/OSS_STATUS.md
