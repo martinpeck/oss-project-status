@@ -9,7 +9,6 @@ Often, when you're looking at a project on GitHub, it's hard to tell how "loved"
 - Has the original maintainer lost interest in mainting this project? Is the project looking for a new owner?
 - Is the project simply a snapshot in time, and not something that should be taken as a dependency?
 
-
 The answers to these questions can sometimes be determined by looking at commit history, or the open and closed issues. Often, you can look at the age of pull requests, and the number of PRs that have been accepted or merged. Sometimes, however, it's not clear.
 
 Wouldn't it be easier if, like build status, this were clearly signalled within the README of the project?
@@ -47,13 +46,13 @@ abandoned | [![OSS Status: Abandoned](/abandoned/oss_status.png)](/healthy/OSS_S
 
 You're welcome to modify or adapt these to fit your needs. You're also welcome to submit PRs for new statuses, or to modify the existing ones.
 
-The main thing to remember is that you're trying to set expectations in a succinct manner. You want visitors to your project to very quickly get a general idea of the status of your project. 
+The main thing to remember is that you're trying to set expectations in a succinct manner. You want visitors to your project to very quickly get a general idea of the status of your project.
 
-If you have nuences and subtlties that aren't expressed easily with a status image and some template text, then maybe you should be more explicit in your README or elsewhere in the repositry.
+If you have nuences and subtlties that aren't expressed easily with a status image and some template text, then maybe you should be more explicit in your README or elsewhere in the repository.
 
 ## Isn't this rather gloomy? Why would an OSS project ever get into these states?
 
-Stuff happens. The life of an OSS maintainer changes. If you generate a lot of useful OSS projects you can find yourself inundated with issue, pull requests, and requests for features/changes/whatever. For many, that's **an awesome situation to be in** but, once in a while, maintainers find themselves having to support their legacy OSS projects, and feel guilty when they can't devote time to OSS project that they've pretty much stopped using, or thinking about. 
+Stuff happens. The life of an OSS maintainer changes. If you generate a lot of useful OSS projects you can find yourself inundated with issue, pull requests, and requests for features/changes/whatever. For many, that's **an awesome situation to be in** but, once in a while, maintainers find themselves having to support their legacy OSS projects, and feel guilty when they can't devote time to OSS project that they've pretty much stopped using, or thinking about.
 
 It can often take a long time for an OSS maintainer to remember "what does this code even do!?!" before they're able to properly respond to an issue or PR.
 
@@ -68,6 +67,7 @@ Not sure. You tell me. Feel free to raise an issue or open a PR.
 ## Licensing
 
 Copyright (c) 2019 Martin Peck
+
 Covered by MIT license (see [`LICENSE`][license] file)
 
 [license]: LICENSE
