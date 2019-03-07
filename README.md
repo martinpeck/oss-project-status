@@ -1,6 +1,6 @@
 # OSS Project Status Indicators
 
-[![OSS Status: Healthy][healthy-badge]][healthy-markdown]
+[![OSS Status: Healthy](https://img.shields.io/badge/OSS%20Status-Healthy-darkgreen.svg)](OSS_STATUS.md)
 
 Often, when you're looking at a project on GitHub, it's hard to tell how "loved" the project is.
 
@@ -17,25 +17,24 @@ Maybe.
 
 ## What you'll find here
 
-This repository contains a set of folders. Each folder contains:
+This repository contains a set of folders. Each folder contains an `OSS_STATUS.md` file. You can take a copy of this file and place it in the root of your project.
 
-- a `OSS_STATUS.md` file, that you can copy/paste into the root of your OSS project
-- an image named `oss_status.png` that you can link to within your `README` file
+Additionally, there are a set of badges defined here to go with each of the health statuses. Each `OSS_STATUS.md` has an example of this badge, and you can copy/paste the markdown into the `README` of your project to make the status of your project clear to potential contributors.
 
 ## How to use the files
 
 1. Copy the appropriate OSS_STATUS.md into the root of your project, much like you would do with a `LICENSE` file.
-2. Update your own `README` file to contain an image and link such as:
+2. Update your own `README` file to contain an image and link (see below for details)
 
-## What an example of how this is used?
+## Do you have an example I can look at?
 
-Sure. You're looking at it. This repository has an `OSS_STATUS.md` file at its root, and this `README.md` file links to one of the images at the top. Take a look at the raw Markdown for an example.
+Sure. You're looking at it. This repository has an `OSS_STATUS.md` file at its root, and this `README.md` file links to one of the images at the top. Take a look at the raw Markdown of this file for an example.
 
 ## Which status should I use?
 
-At present, you'll find a number of status options. I would suggest they're used according to the guidelines that follow:
+You'll find a number of statuses defined here...
 
-### Health
+### Healthy
 
 [![OSS Status: Healthy][healthy-badge]][healthy-markdown]
 
@@ -48,7 +47,7 @@ URL Type | Location
 Image URL: | `https://img.shields.io/badge/OSS%20Status-Healthy-darkgreen.svg`
 Description URL: | `https://github.com/martinpeck/oss-project-status/blob/master/healthy/OSS_STATUS.md`
 
-### Health, Closed
+### Healthy, Closed
 
 [![OSS Status: Healthy, Closed][healthy-closed-badge]][healthy-closed-markdown]
 
